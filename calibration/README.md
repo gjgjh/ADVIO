@@ -23,14 +23,16 @@ The ADVIO data was collected in four batches, and the calibrations were done for
 
 
 ### iPhone accelerometer
-Accelerometer noise density: 4.8e-3       #Noise density (continuous-time)
+Accelerometer noise density: 4.8e-2       #Noise density (**discrete-time**)
 
-Accelerometer random walk:   2.1e-4       #Bias random walk
+Accelerometer random walk:   2.1e-4       #Bias random walk (**discrete-time**)
 
 ### iPhone Gyroscope
- Gyroscope noise density:     2.4e-3       #Noise density (continuous-time)
+Gyroscope noise density:     2.4e-2       #Noise density (**discrete-time**)
 
-Gyroscope random walk:       5.1e-5       #Bias random walk
+Gyroscope random walk:       5.1e-5       #Bias random walk (**discrete-time**)
+
+> VinsMono等SLAM算法通常采用的是discrete-time
 
 ## iPhone camera to IMU transformation
 
